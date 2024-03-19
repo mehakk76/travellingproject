@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!--header design-->
+    <header>
+        <a href="#" class="logo">JET <span>SET GO</span></a>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="h-right">
+            <a href="#">Follow Us</a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+        </div>
+    </header>
+
+    <!--home section design-->
+    <section class="home">
+        <div class="home-text">
+            <h1>Travel Far,travel wide</h1>
+            <p>Let the journey be your guide.</p>
+            <a href="#" class="btn">Book a Trip</a>
+        </div>
+        <div class="background-video">
+            <video autoplay muted loop>
+                <source src="WhatsApp Video 2024-03-19 at 12.06.12 PM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+        <!-- <div class="center-btn">
+            <a href="#" class="btn">BOOK TOURS</a>
+        </div> -->
+  <div class="background-imagee">
+    <div class="container2">
+      <h1 class="booking">BOOK NOW</h1>
+      <form action="reservation.php" method="post">
+        
+          <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="visitor_name" placeholder="Mehak Sharma" pattern=[A-Z\sa-z]{3,20} required>
+          </div>
+          <div class="elem-group">
+            <label for="phone">Your Phone</label>
+            <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+          </div>
+          <div class="elem-group inlined">
+            <label for="adult">Adults</label>
+            <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+          </div>
+          <div class="elem-group inlined">
+            <label for="child">Children</label>
+            <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+          </div>
+          <div class="elem-group inlined">
+            <label for="checkin-date">Check-in </label>
+            <input type="date" id="checkin-date" name="checkin" required>
+          </div>
+          <div class="elem-group inlined">
+            <label for="checkout-date">Check-out </label>
+            <input type="date" id="checkout-date" name="checkout" required>
+          </div>
+          <div class="elem-group">
+            <label for="room-selection">Select Room Preference</label>
+            <select id="room-selection" name="room_preference" required>
+                <option value="">Choose a Room from the List</option>
+                <option value="connecting">Connecting</option>
+                <option value="adjoining">Adjoining</option>
+                <option value="adjacent">Adjacent</option>
+            </select>
+          </div>
+        </form>
+    </div>
+  </div>
+  <div class="center-btn">
+    <a href="#" class="btn">BOOK TOUR</a>
+</div>
+    <h1>CULTURE</h1>
+    <p>Embark on a unique journey through secret treasures, where untouched natural beauty & diverse culture awaits beyond mainstream travel.</p>
+    <div class="hexagon-gallery">
+        <div class="hexagon">
+            <div class="hex"><img src="santa.jpg" alt=""></div>
+            <div class="hex"><img src="groupd.jpg" alt=""></div>
+            <div class="hex"><img src="germany.jpeg" alt=""></div>
+            <div class="hex"><img src="ukk.jpg" alt=""></div>
+            <div class="hex"><img src="white.jpg" alt=""></div>
+            <div class="hex"><img src="dance.jpg" alt=""></div>
+            <div class="hex"><img src="dance2.jpg" alt=""></div>
+        </div>
+        <div class="hexagon">
+            <div class="hex"><img src="dance3.jpg" alt=""></div>
+            <div class="hex"><img src="whited.jpg" alt=""></div>
+            <div class="hex"><img src="reddance.jpg" alt=""></div>
+            <div class="hex"><img src="southd.jpg" alt=""></div>
+            <div class="hex"><img src="punjab.jpg" alt=""></div>
+            <div class="hex"><img src="greece.jpeg" alt=""></div>
+        </div>
+        <div class="hexagon">
+            <div class="hex"><img src="italian.jpeg" alt=""></div>
+            <div class="hex"><img src="WhatsApp Image 2024-02-28 at 10.44.09 AM.jpeg" alt=""></div>
+            <div class="hex"><img src="WhatsApp Image 2024-02-28 at 10.44.11 AM.jpeg" alt=""></div>
+            <div class="hex"><img src="indian cul.jpeg" alt=""></div>
+            <div class="hex"><img src="Coachella-Photo-1024x427.jpg" alt=""></div>
+            <div class="hex"><img src="band.jpg" alt=""></div>
+            <div class="hex"><img src="disney.jpeg" alt=""></div>
+        </div>
+    </div>
+</header>
+<h2 class="rest">BEST DINE-IN IDEAS FOR YOU</h2>
+<div class="boxx">
+  <img src="background.jpg">
+  <h6>Traveller's choice Awards</h6>
+  <h4>Best of Best Restaurants</h4>
+</div>
+<section class="ccontainer">
+  <div class="Restaurants">
+    <div class="hover">
+      <img src="bogainvillea.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Restaurant Bougainvillea<br><span class="location"><img src="location.png" alt="Location Favicon" >The Netherlands</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="ise-suyoshi.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Ise Suyoshi<br><span class="location"><img src="location.png" alt="Location Favicon" >Nishiazabu, Japan</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="maison medard.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Maison Medard<br><span class="location"><img src="location.png" alt="Location Favicon" >Boullerat, France</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="Avartana-interior.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Avartana<br><span class="location"><img src="location.png" alt="Location Favicon" >Chennai, India</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="akira-back.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Akira Back<br><span class="location"><img src="location.png" alt="Location Favicon" >Bangkok, Thailand</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="waitui-bar-grill.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Waitui Bar & Grill<br><span class="location"><img src="location.png" alt="Location Favicon" >Viti levu, Fiji</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="almira-restaurent.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Almira Restaurant<br><span class="location"><img src="location.png" alt="Location Favicon" >Santorini, Greece</span></p>
+      </div>
+    </div>
+    <div class="hover">
+      <img src="restaurante pontremoli.jpg">
+      <div class="restaurant-title-bg">
+        <p class="restaurant-title">Restaurant Pontremoli<br><span class="location"><img src="location.png" alt="Location Favicon" >Brazil</span></p>
+      </div>
+    </div>
+  </div>
+    <section class="tour">
+        <div class="center-text">
+            <h2>DESTINATION TOURS</h2>
+        </div>
+        <div class="tour-content">
+            <div class="box">
+                <img src="london.webp">
+                <h6>LONDON</h6>
+                <h4>UNITED KINGDOM</h4>
+            </div>
+
+            <div class="box">
+                <img src="rome.jpeg">
+                <h6>ROME</h6>
+                <h4>ITALY</h4>
+            </div>
+
+            <div class="box">
+                <img src="dubai.jpeg">
+                <h6>DUBAI</h6>
+                <h4>UNITED ARAB EMIRATES</h4>
+            </div>
+
+            <div class="box">
+                <img src="jaipur2.webp">
+                <h6>JAIPUR</h6>
+                <h4>RAJASTHAN</h4>
+            </div>
+            <div class="box">
+                <img src="paris3.jpeg">
+                <h6>PARIS</h6>
+                <h4>FRANCE</h4>
+            </div>
+            <div class="box">
+                <img src="AMRITSAR.jpeg">
+                <h6>AMRITSAR</h6>
+                <h4>PUNJAB</h4>
+            </div>
+            <div class="box">
+                <img src="barcelona.jpeg">
+                <h6>BARCELONA</h6>
+                <h4>SPAIN</h4>
+            </div>
+            <div class="box">
+                <img src="new york.jpeg">
+                <h6>NEW YORK</h6>
+                <h4>USA</h4>
+            </div>
+            <div class="box">
+                <img src="varanasi2.jpeg">
+                <h6>VARANASI</h6>
+                <h4>UTTAR PRADESH</h4>
+            </div>
+        </div>
+        <div class="center-btn">
+            <a href="#" class="btn">SEE TOURS</a>
+        </div>
+    </section>
+    <header>
+      <h1 class="fest">Local Festivals Across the World</h1>
+  </header>
+  <div class="container1">
+      <div class="festival">
+          <img src="https://cdn.pixabay.com/photo/2023/07/19/21/28/carnival-8137907_1280.jpg" alt="Festival Image">
+          <h2>CARNIVAL</h2><br>
+          <p class="fontt"><b>Location:</b> Rio de Janeiro, Brazil</p><br>
+          <p class="fontt"><b>Date:</b> Held every year before Lent</p><br>
+          <p class="fontt"><b>Description:</b> The Carnival in Rio de Janeiro is a festival held every year before Lent; it is considered the biggest carnival in the world, with two million people per day on the streets. The first Carnival festival in Rio occurred in 1723.</p>
+      </div>
+      <div class="festival">
+          <img src="https://wallpapers.com/images/hd/mesmerizing-oktoberfest-tent-u1ayda4vd4yno0ue.jpg" alt="Festival Image">
+          <!-- <img src="https://assets.cntraveller.in/photos/60b9ef368b178b16cbde8661/16:9/w_1360,h_765,c_limit/final%202_0-1366x768.jpg" alt="Festival Image"> -->
+          <h2>OKTOBERFEST</h2><br>
+          <p class="fontt"><b>Location:</b> Munich, Germany</p><br>
+          <p class="fontt"><b>Date:</b> Mid- or late-September to the first Sunday in October</p><br>
+          <p class="fontt"><b>Description:</b> Oktoberfest is the world's largest Volksfest, featuring a beer festival and a travelling carnival, and is held annually in Munich with more than six million international and national visitors. </p>
+      </div>
+      <div class="festival">
+          <!-- <img src="https://wallpapercave.com/wp/wp2137826.jpg" alt="FestivalImage"> -->
+          <img src="https://img.freepik.com/premium-photo/la-tomatina-festival-spain_584200-3184.jpg" alt="Festival Image">
+          <h2>LA TOMATINA</h2><br>
+          <p class="fontt"><b>Location:</b> Buñol, Spain</p><br>
+          <p class="fontt"><b>Date:</b> Last Wednesday of August</p><br>
+          <p class="fontt"><b>Description:</b> La Tomatina is a festival that is held in the Valencian town of Buñol, in the east of Spain, in which participants throw tomatoes and get involved in a tomato fight purely for entertainment purposes.</p>
+      </div>        
+  </div>
+  <section class="weather1">
+    <div class="weather-text"><h2>Weather</h2></div>
+    <div class="dropdown">
+        <label for="country">Select Country</label>
+        <select id="country" name="country-preference" required>
+            <option value="">Choose country you want to visit</option>
+            <option value="1">United States</option>
+            <option value="2">India</option>
+            <option value="3">Amsterdam</option>
+        </select>
+    </div>
+    <div class="weather-section">
+        <div class="weather-card">
+            <div class="weather-info">
+                <span class="temperature">25°C</span>
+                <span class="day">Monday</span>
+            </div>
+            <img src="cloud-sun.png" class="icon">
+            <h5 class="status">Partly Cloudy</h5>
+        </div>
+        <div class="weather-card">
+            <div class="weather-info">
+                <span class="temperature">20°C</span>
+                <span class="day">Tuesday</span>
+            </div>
+            <img src="thunder.png" class="icon">
+            <h5 class="status">Tunderstrom</h5>
+        </div>
+        <div class="weather-card">
+            <div class="weather-info">
+                <span class="temperature">30°C</span>
+                <span class="day">Wednesday</span>
+            </div>
+            <img src="cloud.png" class="icon">
+            <h5 class="status">Cloudy</h5>
+        </div>
+    </div>
+</section>
+<section class="about">
+        <div class="container_">
+            <div class="about-content">
+                <div class="image_">
+                    <img src="pexels-johannes-plenio-1103971.jpg" alt="Left Image">
+                </div>
+                <div class="text_">
+                    <h2>About Us</h2>
+                    <h4>Take only memories, leave only footprints.</h4>
+                    <p>Our purpose is to serve a comprehensive resource and platform that empowers travelers to explore 
+                        the world, make meaningful connections and create unforgettable experiences.</p>
+                    <div class="item-data">
+                        <div class="col1">
+                            <h1>387</h1>
+                            <span>completed trips</span>
+                        </div>
+                        <div class="col1">
+                            <h1>71</h1>
+                            <span>Tour Guides</span>
+                        </div>
+                        <div class="col1">
+                            <h1>46</h1>
+                            <span>Destinations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image_">
+                    <img src="pexels-krivec-ales-552779.jpg" alt="Right Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="testimonials">
+        <div class="inner">
+          <h1>Testimonials</h1>
+          <div class="border"></div>
+          <div class="row">
+            <div class="col">
+              <div class="testimonial">
+                <img src="reviews.jpg" alt="">
+                <div class="name">Rachel</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>Over the top experience, outstanding service food, space, and tableware. A place to repeat. If you have the change: dine there! Manuel was our server, and he coud’t do a better job. Everything was over the top
+    
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonial">
+                <img src="review2.jpg" alt="">
+                <div class="name">Stephan</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>Over the top experience, outstanding service food, space, and tableware. A place to repeat. If you have the change: dine there! Manuel was our server, and he coud’t do a better job. Everything was over the top
+                  
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonial">
+                <img src="review3.jpg" alt="">
+                <div class="name">John</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>Over the top experience, outstanding service food, space, and tableware. A place to repeat. If you have the change: dine there! Manuel was our server, and he coud’t do a better job. Everything was over the top
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="footer">
+        <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Email Marketing</a>
+                <li><a href="#">Campaigns</a></li>
+                <li><a href="#">Brandings</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">Our Story</a>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Brandings</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Help</h3>
+            <ul>
+                <li><a href="#">FAQs</a>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="links">
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!--copyright-->
+
+    <div class="copyright">
+        <p>Copyright 2024</p>
+    </div>
+</body>
+</html>
